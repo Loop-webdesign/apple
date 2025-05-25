@@ -1,0 +1,144 @@
+        
+
+        body {
+            text-align: center;
+            background-color: white;
+        }
+
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0.9;
+            
+            
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .applelogo{
+ transition: scale 0.3s;
+            
+        }
+        .applelogo:hover{
+            transform: scale(1.1);
+            transition: scale 0.3s;
+        }
+
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: gray;
+        }
+
+        .content {
+            margin-top: 25px;
+            background-color: rgb(236, 239, 244);
+            color: #000000;
+        }
+        .contentmac {
+            margin-top: 25px;
+            background-color: #E2F3F7;
+            color: #000000;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-top: 10px;
+            color: #000000;
+        }
+
+        .iphone-image {
+            width: 700px;
+        }
+         .macbook-image {
+            width: 700px;
+        }
+         .applewatch-image {
+            width: 900px;
+        }
+          .ipad-image {
+            width: 600px;
+        }
+           .collage-image {
+            width: 580px;
+        }
+          .coolmac-image {
+            width: 400px;
+        }
+
+        .button {
+            background-color: #076dda;
+            text-decoration: none;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        button:hover {
+            background-color:#076dda;
+        }
+          .button2 {
+            background-color: transparent;
+            text-decoration: none;
+            color: #076dda;
+            padding: 15px 25px;
+            border-radius: 100px;
+            cursor: pointer;
+            border: #076dda, solid 1.5px;
+            font-size: 18px;
+        }
+        .button2:hover {
+            background-color: #076dda;
+            text-decoration: none;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 100px;
+            border: #076dda solid 1.5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+       
+        .button3 {
+            background-color: #000000;
+            text-decoration: none;
+            color: #076dda;
+            padding: 15px 25px;
+            border-radius: 100px;
+            cursor: pointer;
+            border: #076dda, solid 1.5px;
+            font-size: 18px;
+        }
+        .button3:hover {
+            background-color: #076dda;
+            text-decoration: none;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 100px;
+            border: #076dda solid 1.5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+       
+
